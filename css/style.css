@@ -1,0 +1,228 @@
+.container {
+    width:75%;
+    margin:auto;
+}
+* {
+    padding:0;
+    margin:0;
+}
+.clear {
+    clear:both;
+}
+/* favorite section */
+.favorite {
+    width:100%;
+    height:700px;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.favorite .header-logo {
+    float:left;
+    margin-top: 10px;
+}
+.favorite .header-logo h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color:#fff;
+}
+.favorite .header-navbar {
+    float:right;
+}
+.favorite .header-navbar ul {
+    margin-top: 15px;
+}
+.favorite .header-navbar ul li {
+    display: inline-block;
+}
+.favorite .header-navbar ul li a {
+    text-decoration: none;
+    padding:10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#fff;
+
+}
+.favorite .header-content {
+    padding-top: 150px;
+    text-align: center;
+}
+.favorite .header-content h2 {
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.favorite .header-content p {
+    width:600px;
+    margin: auto;
+    color:#999;
+    padding-bottom: 30px;
+}
+.favorite .header-content button {
+    outline: 0;
+    border:0;
+    background-color: orangered;
+    color:#fff;
+    width:120px;
+    height:35px;
+    border-radius: 20px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+/* need section */
+.need {
+    width:100%;
+    height:400px;
+    background-color: orangered;
+}
+.need .need-content {
+    text-align: center;
+    padding-top: 100px;
+}
+.need .need-content h2 {
+    color:#fff;
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.need .need-content p {
+    color:#fff;
+    padding-bottom: 25px;
+}
+.need .need-content button {
+    color:#222;
+    background-color: #fff;
+    width:120px;
+    height:35px;
+    border-radius: 20px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: 0;
+    border:0;
+
+}
+/* service section */
+.service {
+    width: 100%;
+    height:370px;
+    background-color: #fff;
+}
+.service .service-content .service-icons {
+    display: flex;
+    justify-content: center;
+}
+.service .service-content  {
+    text-align: center;
+}
+
+.service .service-content h2 {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    text-transform: uppercase;
+    color:#000;
+}
+.service .service-content .love i {
+    padding-bottom: 10px;
+    color:orangered;
+    cursor: pointer;
+
+}
+.service .service-content .love h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+
+}
+.service .service-content .love p {
+    color:#888;
+}
+/* profile section */
+.profile {
+    width:100%;
+    height:auto;
+}
+.profile .profile-image {
+    width:33%;
+    float:left;
+}
+/* free section */
+.free {
+    width:100%;
+    height:250px;
+    background-color: #222;
+}
+.free .free-content {
+    text-align: center;
+    padding-top: 70px;
+}
+.free .free-content p {
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color:#fff;
+}
+.free .free-content button {
+    color:#222;
+    background-color: #fff;
+    width:150px;
+    height:35px;
+    border-radius: 20px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: 0;
+    border:0;
+}
+.free .free-content button:hover {
+    background-color:#222;
+    color:#fff;
+    border:1px solid #888;
+}
+/* footer section */
+.footer {
+    width:100%;
+    height:350px;
+    background-color: #fff;
+}
+.footer .footer-content {
+    text-align: center;
+    padding-top: 70px;
+}
+.footer .footer-content h2 {
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    color:#888;
+}
+.footer .footer-content p {
+    padding-bottom: 40px;
+}
+.footer .footer-end .contact {
+    float:left;
+    margin-left: 290px;
+    text-align: center;
+}
+.footer .footer-end .contact i {
+    margin-bottom: 7px;
+    cursor: pointer;
+    color:#888;
+}
+.footer .footer-end .please i {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color:#888;
+}
+.footer .footer-end .please i:hover {
+    color:#222;
+}
+.footer .footer-end .contact i:hover {
+    color:#222;
+}
+.footer .footer-end .please {
+    float:right;
+    margin-right: 290px;
+    text-align: center;
+}
